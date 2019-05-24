@@ -1,23 +1,63 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+import "./style.css";
+import FrontPage from '../Frontpage';
+import AboutPage from '../AboutPage';
+import WorkPage from '../WorkPage';
+import ContactPage from '../ContactPage';
+import { yellow } from '@material-ui/core/colors';
 
   function Navbar () {
     return (
-      <div>
-        <AppBar position="static">
+    <Router>
+      <div className="flex navbar">
+        <AppBar className="flex" id="nav">
           <Toolbar>
-            <Typography variant="h6" color="inherit">
-              Jesus Salazar
-            </Typography>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Work</Button>
-            <Button color="inherit">Contact</Button>
+            {/* <NavLink to={{
+                pathname:"/home" }
+              } 
+              activeClassName="selected" 
+              activeStyle={{color:"green"}}>
+              <Button color="inherit">Home</Button>
+            </NavLink>
+            <NavLink to={{
+                pathname:"/about" }
+              } 
+              activeClassName="selected" 
+              activeStyle={{color:"green"}}>
+              <Button color="inherit">About</Button>
+            </NavLink> 
+            <NavLink to={{
+                pathname:"/work" }
+              } 
+              activeClassName="selected" 
+              activeStyle={{color:"green"}}>
+              <Button color="inherit">Work</Button>
+            </NavLink> 
+            <NavLink to={{
+                pathname:"/contact#contact" }
+              } 
+              activeClassName="selected" 
+              activeStyle={{color:"green"}}>
+              <Button color="inherit">Contact</Button>
+            </NavLink> */}
+            <Link to="/home#home"><Button color="inherit">Home</Button></Link>
+            <Link to="/about#about"><Button color="inherit">About</Button></Link>
+            <Link to="/work#work"><Button color="inherit">Work</Button></Link>
+            <Link to="/contact#contact"><Button color="inherit">Contact</Button></Link>
+
           </Toolbar>
+          {/* <Route exact path="/home" component={FrontPage} /> */}
+          {/* <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/work" component={WorkPage} />
+          <Route exact path="/contact" component={ContactPage} /> */}
         </AppBar>
       </div>
+    </Router>
     );
   }
   

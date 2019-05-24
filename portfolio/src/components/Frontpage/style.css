@@ -1,4 +1,68 @@
-body, html {
-    background-image: url("./earth.jpg");
+#home {
+    /* background-image: url("./earth.jpg"); */
+    background-image: url("./night-sky.jpeg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}   
+/* 
+section:nth-of-type(1) {
+    padding: 0 10px;
+    color: #fff;
+    height: calc(100vh + 53px);
+}    */
+
+.modal-wrap {
+    height: 100vh;
+    width: 100vw;
+    /* position: fixed; */
+    /* pointer-events: none; */
+    /* z-index: 100; */
+}
+
+.flexCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#check-work{
+    color: white;
+    border: 2px solid white;
+    margin-top: 1rem;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#check-work:hover{
+    background-color: blueviolet;
+    border: 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#text{
+    color: #04c2c9;
+}
+
+.highlight {
+    color: #5dfc0a;
 }
