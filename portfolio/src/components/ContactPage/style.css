@@ -1,0 +1,79 @@
+#contact-page {
+    padding-top: 2rem;
+    color: #d5d3d2;
+}
+
+#contact-form{
+    height: 100%;
+    width: 50%;
+    background-color: #1b242f;
+    color: #d5d3d2;
+    max-width: 1170px;
+    box-shadow: 0 0 20px 0 hsl(182, 96%, 40%, 0.5);
+    margin-top: 2rem;
+}
+
+#contact-form > * {
+    padding: 1em;
+}
+
+#form-contact {
+    line-height: 1.6rem;
+    width: 80%;
+    height: 80%;
+}
+
+#form-contact textarea, #form-contact input {
+    display: flex;
+    flex: 0 0 100;
+    border: 0;
+    border-bottom: 1px solid #04c2c9;
+    line-height: 1.6;
+    background-color: #1b242f;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    width: 100%;
+}
+
+#form-contact textarea:focus, #form-contact input:focus {
+    outline: 1px solid #04c2c9 !important;
+    color: #5dfc0a;
+}
+
+#form-contact textarea {
+    font-family: inherit;
+}
+
+#contact-question{
+    color: #04c2c9;
+}
+
+.text-field {
+    color: yellow;
+}
+
+#button-submit {
+    margin-top: 1.5rem;
+    border: 1px solid #d5d3d2;
+    color: #d5d3d2;
+    padding: 7px;
+    width: 66%;
+}
+
+#button-submit:hover {
+    background-color: #04c2c9;
+    border: none;
+    color: #2f2e33;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+@media only screen and (max-width: 600px){
+    #contact-form {
+        width: 90%;
+        border: none;
+        box-shadow: none;
+    }
+}

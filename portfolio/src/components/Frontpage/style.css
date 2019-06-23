@@ -51,12 +51,13 @@ section:nth-of-type(1) {
 }
 
 #check-work:hover{
-    background-color: blueviolet;
+    background-color: #5dfc0a;
     border: 0;
     transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
     transition-delay: 0s;
+    color: #2f2e33;
 }
 
 #text{

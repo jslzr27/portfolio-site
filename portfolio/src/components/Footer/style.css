@@ -1,11 +1,28 @@
 .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 50%;
     margin: auto;   
 }
 
 .social-links i {
-    color: darkblue;
-    font-size: 5rem;
+    color: #d5d3d2;
+    font-size: 3rem;
+}
+
+.social-links i:hover {
+    color: #04c2c9;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+#footer-page{
+    height: 100%;
+    padding-top: 2rem;
+}
+
+#footer-page p{
+    color: #d5d3d2;
 }

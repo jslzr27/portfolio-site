@@ -48,7 +48,7 @@ import { yellow } from '@material-ui/core/colors';
             <Link to="/home#home"><Button color="inherit">Home</Button></Link>
             <Link to="/about#about"><Button color="inherit">About</Button></Link>
             <Link to="/work#work"><Button color="inherit">Work</Button></Link>
-            <Link to="/contact#contact"><Button color="inherit">Contact</Button></Link>
+            <Link to="/contact#contact-page"><Button color="inherit">Contact</Button></Link>
 
           </Toolbar>
           {/* <Route exact path="/home" component={FrontPage} /> */}
