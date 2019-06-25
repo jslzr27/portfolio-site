@@ -1,21 +1,74 @@
 import React, { Component } from "react";
+import "./style.css";
+import htl from "../../SKILLS/HTML.png";
+import csl from "../../SKILLS/CSS3.png";
+import jsl from "../../SKILLS/JAVASCRIPT.png";
+import jql from "../../SKILLS/JQUERY.png";
+import mtl from "../../SKILLS/MATERIALIZE.webp";
+import btl from "../../SKILLS/BOOTSTRAP.svg";
+import rel from "../../SKILLS/REACT.png";
+import nol from "../../SKILLS/NODE JS.png";
+import exl from "../../SKILLS/EXPRESS.png";
+import msl from "../../SKILLS/MYSQL.png";
+import monl from "../../SKILLS/MONGO.png";
+import firl from "../../SKILLS/FIREBASE.png";
+import gtl from "../../SKILLS/GIT.png";
+import ghl from "../../SKILLS/GITHUB.png";
+import hel from "../../SKILLS/HEROKU.png";
+import npml from "../../SKILLS/NPM.png";
+
 
 class AboutPage extends Component {
     render() {
         return (
+            <div>
+                <h1>About Me</h1>
             <div className="section" id="about">
-                <h1>AboutPage</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida consequat sem, vitae consectetur sapien imperdiet a. Sed tristique lacinia arcu, non fringilla mi dapibus at. Cras vel arcu sit amet ex maximus consectetur vitae quis eros. In commodo elit ac nulla maximus pretium. Vivamus nec rhoncus arcu. Duis ultricies mattis enim, in sodales dolor dignissim vitae. Vivamus ante nisl, sollicitudin ac sem in, dignissim laoreet ex. Etiam eget leo vel metus ultricies malesuada. Suspendisse sagittis fringilla purus, nec tristique est eleifend vitae.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras in ligula pellentesque, cursus felis at, congue ante. Mauris bibendum ipsum lectus, eget aliquet diam laoreet et. Phasellus bibendum facilisis consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec euismod in sem in semper. Proin feugiat tempor risus, sed lobortis nibh blandit nec. Morbi mollis, mi ac consequat malesuada, felis ligula scelerisque ex, vel maximus justo lectus at risus. Morbi vel feugiat dolor, nec pretium metus. Cras purus purus, euismod nec faucibus et, porttitor at nisl. Integer dolor quam, molestie id ex et, posuere malesuada nisl. Quisque suscipit lorem at maximus laoreet. Proin pulvinar a nisl non vehicula. Aenean sit amet risus ac arcu gravida vulputate feugiat vel arcu. Cras sed pulvinar magna, non congue elit.
-
-Nullam faucibus cursus mollis. Ut vitae rutrum metus, non imperdiet nisi. Nam nisl ipsum, suscipit et nunc hendrerit, convallis volutpat turpis. Suspendisse commodo vulputate lacus, vitae tristique mauris lacinia at. Cras metus dolor, ultrices vitae elementum nec, congue sit amet justo. Nunc quis convallis nunc. Ut sed velit in turpis hendrerit viverra id ac erat. Curabitur vulputate placerat nisi vel congue. Nulla facilisi. Curabitur eget blandit urna. Pellentesque nulla ligula, euismod lobortis laoreet a, feugiat sed nibh. Nunc finibus eu nisl quis suscipit.
-
-Donec faucibus nisi id eleifend eleifend. Curabitur non auctor dui. Etiam egestas enim enim, sit amet efficitur nulla dapibus eget. Sed scelerisque, nunc et vulputate gravida, mi est auctor tortor, vitae commodo lacus sem et quam. Suspendisse at tellus accumsan, imperdiet justo ut, ultrices arcu. Duis ultricies justo in risus rhoncus, id finibus purus semper. Quisque vel purus sit amet nunc scelerisque posuere.
-
-Suspendisse finibus justo arcu. Sed enim sem, tincidunt vel finibus eu, rhoncus nec tellus. Aenean molestie pretium mauris, vel posuere erat rutrum nec. Nulla efficitur accumsan sem, mollis iaculis orci molestie eget. Nulla cursus, justo sit amet condimentum vestibulum, sapien leo dignissim dolor, ac lacinia tellus quam ut libero. Quisque posuere mi sed pulvinar sagittis. Nulla mollis ante sit amet leo pellentesque, placerat lobortis elit tristique. Sed vitae auctor ante. Integer a imperdiet enim, id convallis nulla. Pellentesque risus leo, pellentesque quis scelerisque sed, aliquam nec nisl.
-</p>
+                <div id="aboutBox">
+                    <h3>Who am I?</h3>
+                    <p>I am a web developer for a passion for building things with the end user in mind. I completed a coding bootcamp where I learned the MERN stack and also worked with other developers in the realization of projects and different tasks that were assigned to us. I enjoy turning complex problems into simple solutions. When I am not coding, you’ll find me cooking, working out or playing soccer.</p>
+                </div>
+                <div id="aboutBox">
+                    <h3>Why web development?</h3>
+                    <p>I chose web development because of the opportunity that I can bring me to create anything I would like to and also because It will facilitate others with solutions to their problems and needs, thus creating a more enjoyable life thanks to the help of technology.</p>
+                </div>
             </div>
+
+            <h1>Skills</h1>
+            <div className="skill-card">
+                <h2>Front-End</h2>
+                <div className="skills">
+                    <li><img src={htl} alt="HTML"></img>HTML</li>
+                    <li><img src={csl} alt="CSS"></img>CSS</li>
+                    <li><img src={jsl} alt="Javascript"></img>Javascript</li>
+                    <li><img src={jql} alt="jQuery"></img>jQuery</li>
+                    <li><img src={mtl} alt="Materialize"></img>Materialize</li>
+                    <li><img src={btl} alt="Bootsrap"></img>Bootstrap</li>
+                    <li><img src={rel} alt="React"></img>React</li>
+                </div>
+            </div>
+            <div className="skill-card">
+                <h2>Back-End</h2>
+                <div className="skills">
+                    <li><img src={nol} alt="Node"></img>Node</li>
+                    <li><img src={exl} alt="Express"></img>Express</li>
+                    <li><img src={msl} alt="MySQL"></img>MySQL</li>
+                    <li><img src={monl} alt="MongoDB"></img>MongoDB</li>
+                    <li><img src={firl} alt="Firebase"></img>Firebase</li>
+                </div>
+            </div>
+            <div className="skill-card">
+                <h2>Other</h2>
+                <div className="skills">
+                    <li><img src={gtl} alt="Git"></img>Git</li>
+                    <li><img src={ghl} alt="Github"></img>Github</li>
+                    <li><img src={hel} alt="Heroku"></img>Heroku</li>
+                    <li><img src={npml} alt="NPM"></img>NPM</li>
+                </div>
+            </div>
+
+            </div>
+
         )
     }
 };
