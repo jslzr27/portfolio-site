@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12af8341.chunk.css",
+    "main.js": "/static/js/main.f3dec5e4.chunk.js",
+    "main.js.map": "/static/js/main.f3dec5e4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.2e1b1400.chunk.js": "/static/js/2.2e1b1400.chunk.js",
+    "static/js/2.2e1b1400.chunk.js.map": "/static/js/2.2e1b1400.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5857ada9ddee9277408d28878a6e0a3e.js": "/precache-manifest.5857ada9ddee9277408d28878a6e0a3e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.12af8341.chunk.css.map": "/static/css/main.12af8341.chunk.css.map",
+    "static/media/BOOTSTRAP.svg": "/static/media/BOOTSTRAP.06596577.svg",
+    "static/media/CSS3.png": "/static/media/CSS3.c26a73b4.png",
+    "static/media/FIREBASE.png": "/static/media/FIREBASE.1da029b3.png",
+    "static/media/HTML.png": "/static/media/HTML.664a8c00.png",
+    "static/media/JAVASCRIPT.png": "/static/media/JAVASCRIPT.b591dcb3.png",
+    "static/media/JQUERY.png": "/static/media/JQUERY.056741cb.png",
+    "static/media/MATERIALIZE.webp": "/static/media/MATERIALIZE.39016fb6.webp",
+    "static/media/MONGO.png": "/static/media/MONGO.e5eee315.png",
+    "static/media/MYSQL.png": "/static/media/MYSQL.4ccd3dff.png",
+    "static/media/NODE JS.png": "/static/media/NODE JS.270f55ff.png",
+    "static/media/REACT.png": "/static/media/REACT.580ffd26.png",
+    "static/media/style.css": "/static/media/night-sky.17005176.jpeg"
+  }
+}
