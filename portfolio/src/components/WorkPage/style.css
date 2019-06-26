@@ -1,0 +1,58 @@
+.workList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.workList li{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.workList img {
+    width: 26rem;
+    height: 13rem;
+}
+
+.workList li:hover {
+  color: #217ca3;
+}
+
+/* .workImg:hover {
+    opacity: 0;    
+    transition-duration: 0.5s;
+} */
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .workList li:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
