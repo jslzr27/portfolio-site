@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c04f19555a957fd168ca0ef8c198808",
+    "revision": "0a2f959c1600f7aae62d6f87ba483def",
     "url": "/index.html"
   },
   {
-    "revision": "e626c502f4c62edf726e",
-    "url": "/static/css/main.12af8341.chunk.css"
+    "revision": "7bc82747065c3193f64d",
+    "url": "/static/css/main.9489fa93.chunk.css"
   },
   {
-    "revision": "a940784e47db8b53a0e7",
-    "url": "/static/js/2.2e1b1400.chunk.js"
+    "revision": "7797d61d01f6fbaf9194",
+    "url": "/static/js/2.5800f814.chunk.js"
   },
   {
-    "revision": "e626c502f4c62edf726e",
-    "url": "/static/js/main.f3dec5e4.chunk.js"
+    "revision": "7bc82747065c3193f64d",
+    "url": "/static/js/main.73098606.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -64,7 +64,43 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/REACT.580ffd26.png"
   },
   {
+    "revision": "18f189530977af36c142c02146a505c9",
+    "url": "/static/media/burger 4.18f18953.png"
+  },
+  {
+    "revision": "677579dd6bfb8993ca693947b871997c",
+    "url": "/static/media/clickygame 54.677579dd.png"
+  },
+  {
+    "revision": "87082161e560b8ac1b9f2b6b776a43ce",
+    "url": "/static/media/crystalCollect 0.87082161.png"
+  },
+  {
+    "revision": "37282376a177c67ec4db2f8e97f8d1b9",
+    "url": "/static/media/liri1 313.37282376.png"
+  },
+  {
+    "revision": "d42159389d2d479d79f81efd90e19213",
+    "url": "/static/media/movie 118.d4215938.png"
+  },
+  {
     "revision": "17005176d7242d9bb94ea57ae7eb13e2",
     "url": "/static/media/night-sky.17005176.jpeg"
+  },
+  {
+    "revision": "cd8e816aa6efa352346b44074589eb23",
+    "url": "/static/media/pets.cd8e816a.png"
+  },
+  {
+    "revision": "6530b4ddae7556bd19aaa54518014774",
+    "url": "/static/media/tablebamazon.6530b4dd.png"
+  },
+  {
+    "revision": "4849b955d6b8b57154d929c7c53790c7",
+    "url": "/static/media/time 2.4849b955.png"
+  },
+  {
+    "revision": "0922c2946e6df1d72e0472da058f02a9",
+    "url": "/static/media/trainTime 0.0922c294.png"
   }
 ]);

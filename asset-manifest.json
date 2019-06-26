@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.12af8341.chunk.css",
-    "main.js": "/static/js/main.f3dec5e4.chunk.js",
-    "main.js.map": "/static/js/main.f3dec5e4.chunk.js.map",
+    "main.css": "/static/css/main.9489fa93.chunk.css",
+    "main.js": "/static/js/main.73098606.chunk.js",
+    "main.js.map": "/static/js/main.73098606.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.2e1b1400.chunk.js": "/static/js/2.2e1b1400.chunk.js",
-    "static/js/2.2e1b1400.chunk.js.map": "/static/js/2.2e1b1400.chunk.js.map",
+    "static/js/2.5800f814.chunk.js": "/static/js/2.5800f814.chunk.js",
+    "static/js/2.5800f814.chunk.js.map": "/static/js/2.5800f814.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5857ada9ddee9277408d28878a6e0a3e.js": "/precache-manifest.5857ada9ddee9277408d28878a6e0a3e.js",
+    "precache-manifest.4298e7f9a57c9e163e263c724d6ee5ae.js": "/precache-manifest.4298e7f9a57c9e163e263c724d6ee5ae.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.12af8341.chunk.css.map": "/static/css/main.12af8341.chunk.css.map",
+    "static/css/main.9489fa93.chunk.css.map": "/static/css/main.9489fa93.chunk.css.map",
     "static/media/BOOTSTRAP.svg": "/static/media/BOOTSTRAP.06596577.svg",
     "static/media/CSS3.png": "/static/media/CSS3.c26a73b4.png",
     "static/media/FIREBASE.png": "/static/media/FIREBASE.1da029b3.png",
@@ -22,6 +22,15 @@
     "static/media/MYSQL.png": "/static/media/MYSQL.4ccd3dff.png",
     "static/media/NODE JS.png": "/static/media/NODE JS.270f55ff.png",
     "static/media/REACT.png": "/static/media/REACT.580ffd26.png",
-    "static/media/style.css": "/static/media/night-sky.17005176.jpeg"
+    "static/media/burger 4.png": "/static/media/burger 4.18f18953.png",
+    "static/media/clickygame 54.png": "/static/media/clickygame 54.677579dd.png",
+    "static/media/crystalCollect 0.png": "/static/media/crystalCollect 0.87082161.png",
+    "static/media/liri1 313.png": "/static/media/liri1 313.37282376.png",
+    "static/media/movie 118.png": "/static/media/movie 118.d4215938.png",
+    "static/media/style.css": "/static/media/night-sky.17005176.jpeg",
+    "static/media/pets.png": "/static/media/pets.cd8e816a.png",
+    "static/media/tablebamazon.png": "/static/media/tablebamazon.6530b4dd.png",
+    "static/media/time 2.png": "/static/media/time 2.4849b955.png",
+    "static/media/trainTime 0.png": "/static/media/trainTime 0.0922c294.png"
   }
 }
