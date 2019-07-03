@@ -12,9 +12,11 @@ class FrontPage extends Component {
                 <Grid>
                 <div id="home">
                     <div className="flexCard">
-                        <Typography variant="h3" id="text">
-                            Hello, my name is <span className="highlight">Jesus Salazar</span>. <br></br> 
-                            I am a full stack web developer
+                        <Typography variant="h3" id="hello">
+                            <span className="hello">Hello, my name is <span className="highlight">Jesus Salazar</span></span>. <br></br> 
+                        </Typography>
+                        <Typography variant="h3" id="dev">
+                            <span className="dev">I am a full stack web developer.</span>
                         </Typography>
                         <Button id="check-work" href="#about">
                             Check My Work

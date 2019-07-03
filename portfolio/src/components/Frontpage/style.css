@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #home {
     /* background-image: url("./earth.jpg"); */
     background-image: url("./night-sky.jpeg");
@@ -14,7 +18,7 @@
     height: 100vh;
     overflow: hidden;
 }   
-/* 
+/*  
 section:nth-of-type(1) {
     padding: 0 10px;
     color: #fff;
@@ -44,26 +48,71 @@ section:nth-of-type(1) {
     display: inline-block;
     font-size: 1rem;
     cursor: pointer;
-    transition-property: all;
+    opacity: 0;
+    /* transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    transition-delay: 0s;
+    transition-delay: 0s; */
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
 }
 
 #check-work:hover{
     background-color: #5dfc0a;
     border: 0;
     transition-property: all;
-    transition-duration: 0.7s;
+    transition-duration: 1s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     color: #2f2e33;
 }
 
-#text{
+#hello, #dev{
     color: #04c2c9;
+    font-size: 3rem;
 }
 
 .highlight {
     color: #5dfc0a;
+}
+
+@keyframes btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#hello {
+    animation: type 3s steps(32);
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: 3px solid #04c2c9; */
+    width: 26ch;
+}
+
+#dev {
+    opacity: 0;
+    animation: dev 3s steps(32);
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: 3px solid #04c2c9; */
+    width: 20ch;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {width: 0ch;}
+    100% {width: 32ch;}
+}
+@keyframes dev {
+    0% {width: 0ch;
+    opacity: 0;}
+    0.1%{opacity: 1;}
+    100% {width: 32ch;
+    opacity: 1;}
+}
+h3{
+    padding: none;
 }

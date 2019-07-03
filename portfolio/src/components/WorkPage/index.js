@@ -21,7 +21,12 @@ class WorkPage extends Component {
                     <li><img src={timi} className="workImg" alt="time management"></img>
                     <div className="overlay">
                         <div className="text">Hello World</div></div>Time Management App</li>
-                    <li><img src={fott} className="workImg" alt="Football clicky game"></img>Football Clicky Game</li>
+                    <li>
+                        <div>
+                        <img src={fott} className="workImg" alt="Football clicky game"></img>Football Clicky Game
+                            <span>This is a game created to show some react</span>
+                        </div>
+                    </li>
                     <li><img src={pets} className="workImg" alt="Petspurration"></img>Petspurration</li>
                     <li><img src={burg} className="workImg" alt="Burger App"></img>Burger App</li>
                     <li><img src={bama} className="workImg" alt="Node inventory management"></img>Node + MySQL Inventory Management</li>
