@@ -24,7 +24,6 @@ class WorkPage extends Component {
                     <li>
                         <div>
                         <img src={fott} className="workImg" alt="Football clicky game"></img>Football Clicky Game
-                            <span>This is a game created to show some react</span>
                         </div>
                     </li>
                     <li><img src={pets} className="workImg" alt="Petspurration"></img>Petspurration</li>
