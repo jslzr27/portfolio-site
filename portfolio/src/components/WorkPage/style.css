@@ -7,66 +7,80 @@
     flex-wrap: wrap;
 }
 
-.workList li{
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1rem;
-    height: 13rem;
+.card{
+    background-color: transparent;
+    /* border: 1px solid #5dfc0a; */
+    padding-bottom: 2rem;
+    height: 13rem;  
     width: 26rem;
+    text-align: center; 
 }
 
-.workList img {
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 1s;
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  backface-visibility: hidden;
+  border-radius: 25px;
+}
+
+.back {
+  background: #1b242f;
+  color: #d5d3d2;
+  transform: rotateY( 180deg );
+}
+
+.back p {
+  padding: 1rem;
+}
+
+ .workList img {  
     display: block;
-    position: relative;
-    width: 26rem;
-    height: 13rem;
-}
-
-.workList li:hover {
-  color: #217ca3;
-}
-
-/* .workImg:hover {
-    opacity: 0;    
-    transition-duration: 0.5s;
-} */
-
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: red;
-    overflow: hidden;
     width: 100%;
-    height:0;
-    transition: .5s ease;
-  }
-  
-  .workList li:hover .overlay {
-    bottom: 0;
     height: 100%;
-  }
-  
-  .text {
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+} 
 
-  .workList li div span {
-    overflow: hidden;
-    color: red;
-    position: absolute;
-    background: rgba(75,75,75,0.7);
-    width: 13rem;
-    height: 100%;
-  }
 
+.link-btn {
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 5px 8px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 500; 
+}
+#gh-btn {
+  background-color: black;
+  color: white;
+}
+
+#lv-btn {
+  background-color: #04c2c9;
+  color: black;
+}
+
+#gh-btn:hover {
+  border: 1px solid white;
+  transition-duration: 0.5s;
+}
+
+#lv-btn:hover {
+  text-shadow: 1px 1px black;
+  transition-duration: 0.5s;
+}
