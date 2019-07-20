@@ -1,0 +1,67 @@
+@media screen and (max-width: 420px) {
+        
+        html, body {
+            width: auto!important; 
+            overflow-x: hidden!important
+        } 
+    
+        body {
+            margin: 10px;
+        }
+
+        #check-work {
+            background-color: #2f2e33;
+            border: 0px!important;
+            color:#fff!important;
+        }
+
+        #check-work:hover {
+            color: #2f2e33!important;
+        }
+
+        .flexCard {
+            height: inherit;
+            max-width: 100%;
+            word-wrap: break-word;
+        }
+
+        #hello, #dev {
+            all: unset!important;
+        }
+
+        /* h3 {
+            display: inline;
+            max-width: 400px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+
+        }
+
+        h3 span::before{
+            white-space: pre;
+        } */
+
+        #aboutContent {
+            max-width: 420px;
+        }
+
+        #aboutBox {
+            width: 80%!important;
+            height: 16rem!important;
+            margin: 1rem;
+        }
+
+        .skills li img {
+            padding: 1rem;
+        }
+
+
+        @keyframes type {
+            0% {width: 18ch;}
+        }
+
+        @keyframes dev {
+            0% {width: 18ch;
+            opacity: 1;}
+        }
+}

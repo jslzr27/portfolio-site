@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './media400.css';
 import FrontPage from "./components/Frontpage";
 import Navbar from './components/Navbar';
 import AboutPage from './components/AboutPage';

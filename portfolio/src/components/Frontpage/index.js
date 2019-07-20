@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import "./style.css";
@@ -12,12 +12,12 @@ class FrontPage extends Component {
                 <Grid>
                 <div id="home">
                     <div className="flexCard">
-                        <Typography variant="h3" id="hello">
+                        <h3 id="hello">
                             <span className="hello">Hello, my name is <span className="highlight">Jesus Salazar</span></span>. <br></br> 
-                        </Typography>
-                        <Typography variant="h3" id="dev">
+                        </h3>
+                        <h3 id="dev">
                             <span className="dev">I am a full stack web developer.</span>
-                        </Typography>
+                        </h3>
                         <Button id="check-work" href="#about">
                             Check My Work
                         </Button>

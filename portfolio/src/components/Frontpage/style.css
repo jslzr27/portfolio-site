@@ -38,6 +38,8 @@ section:nth-of-type(1) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 800px;
+    height: 200px;
 }
 
 #check-work{
@@ -72,6 +74,8 @@ section:nth-of-type(1) {
 #hello, #dev{
     color: #04c2c9;
     font-size: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .highlight {
@@ -112,7 +116,4 @@ section:nth-of-type(1) {
     0.1%{opacity: 1;}
     100% {width: 32ch;
     opacity: 1;}
-}
-h3{
-    padding: none;
 }
