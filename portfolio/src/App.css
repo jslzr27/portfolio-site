@@ -22,14 +22,19 @@ body {
   overflow-x: hidden;
 }
 
-.section {
-  margin-top: 5rem;
-}
+/* .section {
+  margin-top: 50rem;
+} */
 
 #contact-page, #footer-page {
   background-color: #2f2e33;
 }
 
-#about, #work {
+/* #about, #work {
   padding-top: 2rem;
+} */
+
+h1 {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 }

@@ -10,7 +10,7 @@ class Footer extends Component {
                 <div className="social-links">
                     {/*email*/}
                     <a href="mailto:jslzr27@gmail.com? subject=subject text" rel="noopener noreferrer" target="_blank">
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                     </a>
                     {/*linkedin*/}
                     <a href="https://www.linkedin.com/in/jesus-salazar-484837173/" rel="noopener noreferrer"  target="_blank">

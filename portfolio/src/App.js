@@ -7,8 +7,6 @@ import WorkPage from './components/WorkPage';
 import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 import Grid from '@material-ui/core/Grid';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-
 
 function App() {
   return (  

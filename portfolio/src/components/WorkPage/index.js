@@ -26,8 +26,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Time Management App</h3>
                             <p>This app was created to help people track and budget their time so that they can maximize their productivity.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/MERN-Time-Management" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://time-management-app-jstz.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/MERN-Time-Management" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://time-management-app-jstz.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>  
                     </li>
@@ -39,8 +39,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Football Clicky Game</h3>
                             <p>This website uses React to render elements in the page. Select a team and beat your own score!.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Clicky-Game" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Clicky-Game/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Clicky-Game" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Clicky-Game/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>
                     </li>
@@ -52,8 +52,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Petspurration</h3>
                             <p>This website allows users to connect with pets that are up for adoption, and then adopt the pets that they would love to have.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/PetsPurration" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://boiling-everglades-73840.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/PetsPurration" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://boiling-everglades-73840.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>
                     </li>
@@ -65,8 +65,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Burger App</h3>
                             <p>With this app you can create your own burger and eat it too!. Don't want to eat it? Then delete it!.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Express-Handlebars-Burger" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://burger-app-jrss.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Express-Handlebars-Burger" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://burger-app-jrss.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>
                     </li>
@@ -78,7 +78,7 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Node + MySQL Inventory Management</h3>
                             <p>This is a Node app that lets you order products through the terminal by connecting with a MySQL database.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Node-My-SQL" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Node-My-SQL" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
                         </div>
                         </div>
                     </li>
@@ -90,7 +90,7 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Liri Bot</h3>
                             <p>LIRI is like iPhone's SIRI. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Liri-bot" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Liri-bot" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
                         </div>
                         </div>
                     </li>
@@ -102,8 +102,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Movie Music Enthusiast</h3>
                             <p>Everyone likes music, and most everyone likes movies, so this app was born as a means to bridge the two.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Movie-Music-Enthusiasts" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Movie-Music-Enthusiasts/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Movie-Music-Enthusiasts" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Movie-Music-Enthusiasts/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>    
                         </div>
                     </li>
@@ -115,8 +115,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Train Time</h3>
                             <p>This is a train schedule application that incorporates Firebase to host train data and updates information for the trains in real time.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Train-time" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Train-time/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Train-time" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Train-time/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>
                     </li>
@@ -128,8 +128,8 @@ class WorkPage extends Component {
                         <div className="back">
                             <h3>Crystals Game</h3>
                             <p>You have 4 crystal and each has a number. Select the crystals to match the goal number. </p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Crystals-Game" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Crystals-Game/" target="_blank" rel="noopener noreferrer"><i class="fas fa-laptop"></i> Live</a>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Crystals-Game" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Crystals-Game/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>    
                         </div>
                     </li>

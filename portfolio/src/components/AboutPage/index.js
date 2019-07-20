@@ -21,9 +21,9 @@ import npml from "../../SKILLS/NPM.png";
 class AboutPage extends Component {
     render() {
         return (
-            <div>
+            <div className="aboutPage" id="about">
                 <h1>About Me</h1>
-            <div className="section" id="about">
+            <div className="section" id="aboutContent">
                 <div id="aboutBox">
                     <h3>Who am I?</h3>
                     <p>I am a web developer for a passion for building things with the end user in mind. I completed a coding bootcamp where I learned the MERN stack and also worked with other developers in the realization of projects and different tasks that were assigned to us. I enjoy turning complex problems into simple solutions. When I am not coding, you’ll find me cooking, working out or playing soccer.</p>

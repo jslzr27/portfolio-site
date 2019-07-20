@@ -6,13 +6,21 @@
     color: white;
     margin-bottom: 2rem;
     box-shadow: none;   
+    overflow: hidden;
 }
 
 .navbar{
     margin-bottom: 2rem;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 a{
     color: white;

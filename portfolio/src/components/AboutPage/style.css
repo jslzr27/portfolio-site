@@ -2,7 +2,7 @@ section{
     color: inherit;
 }
 
-#about {
+#aboutContent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
