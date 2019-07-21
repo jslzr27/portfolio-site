@@ -1,85 +1,91 @@
 import React, { Component } from "react";
 import "./style.css";
-import FormControl from '@material-ui/core/FormControl';
-import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import PropTypes from 'prop-types';
 import { Typography } from '@material-ui/core';
+import * as firebase from "firebase";
 
+window.onload = function() {
+
+    // Your web app's Firebase configuration
+  
+    if (!firebase.apps.length) {
+      firebase.initializeApp({
+          apiKey: "AIzaSyDD4uUc5cN61R9Cv3kkzIZhNVmtVV2tyF4",
+          authDomain: "html-form-8a2b0.firebaseapp.com",
+          databaseURL: "https://html-form-8a2b0.firebaseio.com",
+          projectId: "html-form-8a2b0",
+          storageBucket: "",
+          messagingSenderId: "87857251127",
+          appId: "1:87857251127:web:e635a3944f27ad1b"
+        });
+   }
+  
+    var messagesRef = firebase.database().ref("messages");
+  //listen to form submit
+  document.getElementById('contactForm').addEventListener("submit", submitForm);
+  //Submit form
+  function submitForm(e) {
+      e.preventDefault();
+      //Get values
+      let name = getInputValues('name');
+      let email = getInputValues('email');
+      let message = getInputValues('message');
+  
+      //save message
+      saveMessage(name, email, message);
+  
+      //alert user
+      document.querySelector(".alert").style.display = 'block';
+
+        //hide alert after 3 seconds
+        setTimeout(function(){
+            document.querySelector(".alert").style.display = 'none';
+        },3000)
+
+      //clear form
+      document.getElementById('contactForm').reset();
+  
+  }
+  
+  //Get form values
+  function getInputValues(id) {
+      return document.getElementById(id).value;
+    }  
+  
+  function saveMessage(name, email, message) {
+      var newMessageRef = messagesRef.push();
+      newMessageRef.set({
+        name: name,
+        email: email,
+        message: message
+      })
+    }
+  }
 
 class ContactPage extends Component {
-    state={
-        value:""
-    }
-
-    handleChange(event) {
-        this.setState({value: event.target.value});
-    }
-
-    handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
-    }
 
     render(){
         return (
             <Grid className="flex" id="contact-page">
                 <h1>Contact Me</h1>
                 <Typography id="contact-question">Have a question or want to work together?</Typography>
-            <Grid id="contact-form" className="flex">
-                {/* <FormControl>
-                    <TextField
-                        name="full-name"
-                        id="standard-with-placeholder first"
-                        label="Your Name"
-                        placeholder="John Doe"
-                        margin="normal"
-                        className="text-field"
-
-                    />
-                    <TextField 
-                        name="email"
-                        id="standard-with-placeholder email"
-                        label="Email address"
-                        placeholder="email@website.com"
-                        type="email"
-                        margin="normal"
-                        className="text-field"
-
-                    />
-                    <TextField
-                        name="message"
-                        id="standard-textarea"
-                        label="Message"
-                        placeholder="Your Message"
-                        multiline
-                        margin="normal"
-                        className="text-field"
-
-                    />
-                    <Button onClick={this.continue} id="button">
-                        submit
-                    </Button>
-                </FormControl> */}
-
-                <form className="flex" id="form-contact">
-                    <input type="text" name="name" id="name" placeholder="Your Name" />
-                    <input type="text" name="email" id="email" placeholder="Email Address" value={this.state.value} onChange={this.handleChange} />
-                    <textarea name="message" id="message" rows="5" placeholder="Message" value={this.state.value} onChange={this.handleChange} />
-                    <Button type="submit" onClick={this.handleSubmit} id="button-submit">
-                        submit
-                    </Button>
-                </form>
-            </Grid>
+                <div className="alert">Your message has been sent</div>
+                <Grid id="contactPage" className="flex">
+                    <form className="flex" id="contactForm" onSubmit={this.submitForm}>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required></input>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required></input>
+                        <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                        <Button type="submit" id="contact-submit">
+                            submit
+                        </Button>
+                    </form>
+                </Grid>
             </Grid>
         )
     }
+
+
 }
-
-ContactPage.propTypes = {
-    classes: PropTypes.object.isRequired,
-  };
-
 
 export default ContactPage;

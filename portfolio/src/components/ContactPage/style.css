@@ -3,7 +3,7 @@
     color: #d5d3d2;
 }
 
-#contact-form{
+#contactPage{
     height: 100%;
     width: 50%;
     background-color: #1b242f;
@@ -13,17 +13,19 @@
     margin-top: 2rem;
 }
 
-#contact-form > * {
+#contactPage > * {
     padding: 1em;
 }
 
-#form-contact {
+
+/*Form and Inputs*/
+#contactForm {
     line-height: 1.6rem;
     width: 80%;
     height: 80%;
 }
 
-#form-contact textarea, #form-contact input {
+#contactForm textarea, #contactForm input {
     display: flex;
     flex: 0 0 100;
     border: 0;
@@ -33,14 +35,15 @@
     padding: 0.5rem;
     margin: 0.5rem 0 0.5rem 0;
     width: 100%;
+    color: white;
 }
 
-#form-contact textarea:focus, #form-contact input:focus {
+#contactForm textarea:focus, #contactForm input:focus {
     outline: 1px solid #04c2c9 !important;
     color: #5dfc0a;
 }
 
-#form-contact textarea {
+#contactForm textarea {
     font-family: inherit;
 }
 
@@ -48,11 +51,16 @@
     color: #04c2c9;
 }
 
-.text-field {
-    color: yellow;
+.alert{
+    display: none;
+    background-color: #04c2c9;
+    color: #2f2e33;
+    padding: 5px;
+    margin: 1em;   
 }
+/*Button*/
 
-#button-submit {
+#contact-submit {
     margin-top: 1.5rem;
     border: 1px solid #d5d3d2;
     color: #d5d3d2;
@@ -60,7 +68,7 @@
     width: 66%;
 }
 
-#button-submit:hover {
+#contact-submit:hover {
     background-color: #04c2c9;
     border: none;
     color: #2f2e33;
@@ -71,7 +79,7 @@
 }
 
 @media only screen and (max-width: 600px){
-    #contact-form {
+    #contactPage {
         width: 90%;
         border: none;
         box-shadow: none;
