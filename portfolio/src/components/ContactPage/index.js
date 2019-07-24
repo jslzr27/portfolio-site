@@ -5,23 +5,24 @@ import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import * as firebase from "firebase";
 
+
 window.onload = function() {
 
     // Your web app's Firebase configuration
   
     if (!firebase.apps.length) {
       firebase.initializeApp({
-          apiKey: "AIzaSyDD4uUc5cN61R9Cv3kkzIZhNVmtVV2tyF4",
-          authDomain: "html-form-8a2b0.firebaseapp.com",
-          databaseURL: "https://html-form-8a2b0.firebaseio.com",
-          projectId: "html-form-8a2b0",
-          storageBucket: "",
-          messagingSenderId: "87857251127",
-          appId: "1:87857251127:web:e635a3944f27ad1b"
+          apiKey: "AIzaSyCxLGKAL4G4V-JqX1fy3J7rhZTRyQUkLIQ",
+          authDomain: "portfolio-react-50d67.firebaseapp.com",
+          databaseURL: "https://portfolio-react-50d67.firebaseio.com",
+          projectId: "portfolio-react-50d67",
+          storageBucket: "portfolio-react-50d67.appspot.com",
+          messagingSenderId: "429410276458",  
+          appId: "1:429410276458:web:6e3040a7a65fcbca"
         });
    }
   
-    var messagesRef = firebase.database().ref("messages");
+  var messagesRef = firebase.database().ref("messages");
   //listen to form submit
   document.getElementById('contactForm').addEventListener("submit", submitForm);
   //Submit form
