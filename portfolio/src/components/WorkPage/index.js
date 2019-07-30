@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import "./style.css";
 
-import timi from "../../portfolio things/time 2.png";
-import fott from "../../portfolio things/clickygame 54.png";
-import pets from "../../portfolio things/pets.png";
-import burg from "../../portfolio things/burger 4.png";
+import timi from "../../portfolio things/time.gif";
+import fott from "../../portfolio things/clickygame.gif";
+import pets from "../../portfolio things/pets.gif";
+import sub from "../../portfolio things/subway.gif";
 import bama from "../../portfolio things/tablebamazon.png";
-import liri from "../../portfolio things/liri1 313.png";
-import mme from "../../portfolio things/movie 118.png";
-import trai from "../../portfolio things/trainTime 0.png";
-import crys from "../../portfolio things/crystalCollect 0.png";
+import amz from "../../portfolio things/amazon.gif";
+import mme from "../../portfolio things/movie.gif";
+import trai from "../../portfolio things/traintime.gif";
+import cryp from "../../portfolio things/bitprofits.gif";
 
 class WorkPage extends Component {
     render() {
@@ -18,6 +18,7 @@ class WorkPage extends Component {
                 <h1>My Projects</h1>
                 
                 <div className="workList">
+                    {/* number 1 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
@@ -31,19 +32,21 @@ class WorkPage extends Component {
                         </div>
                         </div>  
                     </li>
+                    {/* number 2 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
-                            <img src={fott} className="workImg" alt="Football clicky game"></img>
+                            <img src={cryp} className="workImg" alt="Crypto Profits"></img>
                         </div>
                         <div className="back">
-                            <h3>Football Clicky Game</h3>
-                            <p>This website uses React to render elements in the page. Select a team and beat your own score!.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Clicky-Game" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Clicky-Game/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
-                        </div>
+                            <h3>Crypto Profits</h3>
+                            <p>This app lets you find out how much profit you have made from your Bitcoin investment. </p>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/crypto-profits-complete" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://crypto-profits-jrss.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
+                        </div>    
                         </div>
                     </li>
+                    {/* number 3 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
@@ -57,43 +60,21 @@ class WorkPage extends Component {
                         </div>
                         </div>
                     </li>
+                    {/* number 4 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
-                            <img src={burg} className="workImg" alt="Burger App"></img>
+                            <img src={fott} className="workImg" alt="Football clicky game"></img>
                         </div>
                         <div className="back">
-                            <h3>Burger App</h3>
-                            <p>With this app you can create your own burger and eat it too!. Don't want to eat it? Then delete it!.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Express-Handlebars-Burger" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://burger-app-jrss.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
+                            <h3>Football Clicky Game</h3>
+                            <p>This website uses React to render elements in the page. Select a team and beat your own score!.</p>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Clicky-Game" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Clicky-Game/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
                         </div>
                         </div>
                     </li>
-                    <li className="card">
-                        <div className="content">
-                        <div className="front">
-                            <img src={bama} className="workImg" alt="Node inventory management"></img>
-                        </div>
-                        <div className="back">
-                            <h3>Node + MySQL Inventory Management</h3>
-                            <p>This is a Node app that lets you order products through the terminal by connecting with a MySQL database.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Node-My-SQL" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
-                        </div>
-                        </div>
-                    </li>
-                    <li className="card">
-                        <div className="content">
-                        <div className="front">
-                            <img src={liri} className="workImg" alt="Liri Bot"></img>
-                        </div>
-                        <div className="back">
-                            <h3>Liri Bot</h3>
-                            <p>LIRI is like iPhone's SIRI. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Liri-bot" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
-                        </div>
-                        </div>
-                    </li>
+                    {/* number 5 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
@@ -107,6 +88,21 @@ class WorkPage extends Component {
                         </div>    
                         </div>
                     </li>
+                    {/* number 6 */}
+                    <li className="card">
+                        <div className="content">
+                        <div className="front">
+                            <img src={sub} className="workImg" alt="Subway Email"></img>
+                        </div>
+                        <div className="back">
+                            <h3>Subway Receipt Email</h3>
+                            <p>This is a recreation of an email from an online order from Subway.</p>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Subway-order-email" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Subway-order-email/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
+                        </div>
+                        </div>
+                    </li>
+                    {/* number 7 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
@@ -120,17 +116,31 @@ class WorkPage extends Component {
                         </div>
                         </div>
                     </li>
+                    {/* number 8 */}
                     <li className="card">
                         <div className="content">
                         <div className="front">
-                            <img src={crys} className="workImg" alt="Crystals Game"></img>
+                            <img src={bama} className="workImg" alt="Node inventory management"></img>
                         </div>
                         <div className="back">
-                            <h3>Crystals Game</h3>
-                            <p>You have 4 crystal and each has a number. Select the crystals to match the goal number. </p>
-                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Crystals-Game" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
-                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/Crystals-Game/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
-                        </div>    
+                            <h3>Node + MySQL Inventory Management</h3>
+                            <p>This is a Node app that lets you order products through the terminal by connecting with a MySQL database.</p>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/Node-My-SQL" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                        </div>
+                        </div>
+                    </li>
+                    {/* number 9 */}
+                    <li className="card">
+                        <div className="content">
+                        <div className="front">
+                            <img src={amz} className="workImg" alt="Liri Bot"></img>
+                        </div>
+                        <div className="back">
+                            <h3>Amazon Prime Email</h3>
+                            <p>This is a recreation of an email marketing campain by Amazon.</p>
+                            <a className="link-btn" id="gh-btn" href="https://github.com/jslzr27/amazon-prime-email" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> Code</a>
+                            <a className="link-btn" id="lv-btn" href="https://jslzr27.github.io/amazon-prime-email/" target="_blank" rel="noopener noreferrer"><i className="fas fa-laptop"></i> Live</a>
+                        </div>
                         </div>
                     </li>
                 </div>
