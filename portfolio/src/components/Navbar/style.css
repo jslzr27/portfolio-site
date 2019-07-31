@@ -25,6 +25,7 @@
 a{
     color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 a:hover {

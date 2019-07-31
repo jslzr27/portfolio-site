@@ -16,7 +16,6 @@ import "./style.css";
             <Link to="/about#about"><Button color="inherit">About</Button></Link>
             <Link to="/work#work"><Button color="inherit">Work</Button></Link>
             <Link to="/contact#contact-page"><Button color="inherit">Contact</Button></Link>
-
           </Toolbar>
         </AppBar>
       </div>
