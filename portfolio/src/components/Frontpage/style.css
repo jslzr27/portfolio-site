@@ -18,19 +18,11 @@ html {
     height: 100vh;
     overflow: hidden;
 }   
-/*  
-section:nth-of-type(1) {
-    padding: 0 10px;
-    color: #fff;
-    height: calc(100vh + 53px);
-}    */
+
 
 .modal-wrap {
     height: 100vh;
     width: 100vw;
-    /* position: fixed; */
-    /* pointer-events: none; */
-    /* z-index: 100; */
 }
 
 .flexCard{
@@ -51,10 +43,6 @@ section:nth-of-type(1) {
     font-size: 1rem;
     cursor: pointer;
     opacity: 0;
-    /* transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s; */
     animation-name: btn;
     animation-duration: 3s;
     animation-delay: 6s;
@@ -106,7 +94,7 @@ section:nth-of-type(1) {
     animation-fill-mode: forwards;
 }
 
-@keyframes type {
+/* @keyframes type {
     0% {width: 0ch;}
     100% {width: 32ch;}
 }
@@ -116,16 +104,39 @@ section:nth-of-type(1) {
     0.1%{opacity: 1;}
     100% {width: 32ch;
     opacity: 1;}
+} */
+
+@media only screen and (min-width: 960px){
+    @keyframes type {
+        0% {width: 0ch;}
+        100% {width: 32ch;}
+    }
+    @keyframes dev {
+        0% {width: 0ch;
+        opacity: 0;}
+        0.1%{opacity: 1;}
+        100% {width: 32ch;
+        opacity: 1;}
+    }
 }
 
 @media only screen and (max-width: 960px) {
     #hello, #dev {
         font-size: 2rem;
     }
+    
+    #check-work{
+        animation-delay: 1s;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #hello, #dev {
         font-size: 1.2rem;
+        color: #04c2c9 !important;
+    }
+
+    .highlight{
+        color: #5dfc0a !important;
     }
 }
